@@ -22,10 +22,11 @@ while turns > 0:     #checking each character in the word
                 print("_")
                 failed+=1
     if failed == 0:                     #checking if user has won
-        print("You Win")
+        print("\nYou Win")
         print("The word is:",word)
         break
     print()
+
     guess = input("guess the character:") #promting for the next guess
     
     guesses += guess
