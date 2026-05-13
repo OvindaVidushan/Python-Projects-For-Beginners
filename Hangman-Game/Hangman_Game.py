@@ -21,6 +21,39 @@ if __name__ == '__main__':
         while chances > 0 and flag == 0:
             print()
             chances-=1
+            try:
+                guess = input('Enter a letter to Guess:').lower()
+            except:
+                print('Enter Only a letter!')
+                continue
+
+            if not guess.isalpha():
+                print('Enter Only a letter!')
+                continue
+            elif len(guess) > 1:
+                print('Enter only a single letter!')
+                continue
+            elif guess in letterGuessed:
+                print('You already guessed that letter!')
+                continue
+
+            if guess in word:
+                letterGuessed += guess*word.count(guess)
+            
+            for char in word:
+                if char in letterGuessed:
+                    print(char,end='')
+                else:
+                    print('_',end='')
+            
+            if Counter(letterGuessed) == Counter(word):
+                print("\n Congratulations! You Guessed the word:",word)
+                flag=1
+                break
+
+        if chances <= 0 and Counter(letterGuessed) != Counter(word)
+            print("\n You Lost! The Word was:",word)
+            
     except KeyboardInterrupt:
         print('\n Game Interrupted. Bye!')
         exit()
