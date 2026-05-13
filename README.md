@@ -1,11 +1,12 @@
+<ins>**Projects for Beginners**</ins>
 ```
-Python projects help improve your coding skills and gain practical experience. From beginner friendly games and utilities to advanced web and AI applications, building projects helps in understanding real world problem solving and strengthens understanding of Python concepts.
+Python projects help improve your coding skills and gain practical experience.From beginner friendly games and utilities to advanced web and AI applications,
+building projects helps in understanding real world problem solving andstrengthens understanding of Python concepts.
 
-Projects for Beginners
-In this section, we have listed more than 20 beginner Python projects that help you to upscale your Python coding skills.
+In this section, we have listed some beginner Python projects that help you to upscale your Python coding skills.
 
-Number guessing game
-Word guessing game
-Hangman Game
+1.Number guessing game
+2.Word guessing game
+3.Hangman Game
 
 ```
